@@ -4,5 +4,8 @@ public class Main {
         CheckTest test = new CheckTest("This will be printed when called with the print method in the \"CheckTest\" class");
 
         test.print();
+
+        Calculate sum = new Calculate(4, 5);
+        System.out.println(sum.numbersAdded());
     }
 }
